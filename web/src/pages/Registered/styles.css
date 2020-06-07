@@ -1,0 +1,19 @@
+#page-registered {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1a161f;
+}
+
+#page-registered h1 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+#page-registered svg {
+  width: 60px;
+  height: 60px;
+  color: var(--primary-color);
+}

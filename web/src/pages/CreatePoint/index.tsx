@@ -10,7 +10,6 @@ import Dropzone from "../../components/Dropzone";
 
 import "./styles.css";
 import logo from "../../assets/logo.svg";
-import Axios from "axios";
 
 interface Item {
   id: number;
@@ -156,9 +155,7 @@ const CreatePoint = () => {
 
     await api.post("points", data);
 
-    alert("Ponto de coleta criado!");
-
-    history.push("/");
+    history.push("/success");
   }
 
   return (
